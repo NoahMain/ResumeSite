@@ -1,0 +1,149 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+/*---------------------Header CSS----------------*/
+#Header{
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.user-box{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.user-box img{
+	border-radius: 50%;
+	width: 250px;
+	border: 2px solid #6caed5;
+}
+.user-box h1{
+	color: #fff;
+	font-weight: bold;
+	margin: 10px;
+	text-align: right;
+	font-size: 40px;
+}
+.user-box p{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+.scroll-btn{
+	bottom: 30px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px solid #fff;
+	padding: 10px 10px 20px;
+	border-radius: 30px;
+}
+.scroll-bar span{
+	border: 2px solid #fff;
+	font-size: 10px;
+	border-radius: 30px;
+}
+.scroll-bar{
+	animation: mover 1s infinite alternate;
+}
+@keyframes mover{
+	0%{
+	transform: translateY(0);
+	}
+	100%{
+	transform: translateY(10px);
+	}
+}
+/*-------------ABOUT------------*/
+.about{
+	position: relative;
+	right: 200px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.about-me{
+	position: relative;
+	left: 700px;
+	bottom: 325px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 20px;
+	text-align: center;
+	border-radius: 15px 50px 30px;
+	border: 2px solid #ff9933;
+}
+.profile-image{
+	position: relative;
+	right: 23px;
+	height: 400px;
+	border: 5px solid #6caed5;
+	border-radius: 50%;
+}
+.nav-bar{
+	top: 0;
+	position: sticky;
+	z-index: 2;
+}
+.navbar{
+	background-color: #000;
+}
+.navbar-brand{
+	color: white;
+}
+.nav-bar .fa-bars{
+	font-size: 35px;
+	color: #fff;
+}
+.nav-link{
+	color: white;
+}
+.column{
+	position: relative;
+	right: 20px;
+	bottom: 200px;
+	border-radius: 25px;
+	border: 2px solid #ff9933;
+	padding: 20px;
+	margin: 20px;
+}
+.column h2{
+	padding: 30px;
+}
+
+
+.aws{
+	position: absolute;
+	left: 600px;
+	top: 500px;
+
+}
+.google{
+
+	position: absolute;
+	left: 1000px;
+	top: 500px;
+
+}
+.trailer{
+
+	position: absolute;
+	left: 600px;
+	top: 1000px;
+
+}
+
+.counter{
+
+	position: absolute;
+	left: -180px;
+	top: -100px;
+
+
+}
